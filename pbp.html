@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>xx个人主页</title>
+</head>
+
+<body>
+<div id="page">
+  <aside id="sidebar">
+    <nav><a href="#top" class="logo" id="nav-logo"><span>A portfolio of </span>xx</a>
+      <ul>
+        <li class="active" id="nav-1"><a href="#home">首页</a></li>
+        <li id="nav-2"><a href="#work">工作</a></li>
+        <li id="nav-3"><a href="#about">个人简介</a></li>
+        <li id="nav-4"><a href="#contact">联系我
+			</a></li>
+      </ul>
+      <div class="bg_bottom"></div></nav>
+	</aside>
+  <div id="main-content">
+    <section id="top"></section>
+    <section id="home">
+      <div class="loader" id="loader"></div>
+      <div class="ps_container" id="ps_container"><span class="ribbon"></span>
+        <div class="ps_image_wrapper"><img src="" alt="" width="" height=""></div>
+        <div class="ps_next"></div>
+        <div class="ps_prev"></div>
+        <ul class="ps_nav">
+			<h1>相册</h1>
+          <li class="selected"><a href="images/2.jpg">Image 1</a></li>
+          <li><a href="images/3.jpg">Image 2</a></li>
+          <li><a href="images/4.jpg"#"">Image 3</a></li>
+          <li><a href="images/5.jpg">Image 4</a></li>
+          <li><a href="images/6.jpg">Image 5</a></li>
+          <li class="ps_preview">
+            <div class="ps_preview_wrapper"></div>
+          <span></span></li>
+        </ul>
+      </div>
+      <header class="driver info-text">
+        <h2>网页示例</h2>
+      </header>
+      </section>
+    <section class="clearfix" id="work">
+      <header>
+        <h2>My work</h2>
+      </header>
+      <ul class="projects list">
+        <li>
+          <figure>
+            <a href="#"><img src="images/音频.jpg" alt="" width="600" height=""></a>
+			  <figcaption><a href="music.html"><span></span><h1>My favorite music</h1></a></figcaption>
+          </figure>
+        </li>
+		  <audio controls>
+    <source src="medias/张碧晨 - 开往早晨的午夜.mp3" type="audio/mpeg">
+</audio>
+        
+        <li class="last">
+          <figure><a href="#"><img src="images/video.jpg" alt="" width="600" height=""></a>
+			  <figcaption><a href="video.html"><span></span><h1>Video</h1></a></figcaption>
+          </figure>
+        </li>
+		  <video controls="controls">
+    <source src="medias/11.mp4" type="video/mp4">
+</video>
+      </ul>
+    </section>
+    <section class="clearfix" id="about">
+      <header>
+        <h2>个人简介</h2>
+     </header>
+      <figure class="marginRight"><img src="images/1524829166697.jpg" alt="" width="150" height="200"></figure>
+      <p>我是xxx，出生于xxxx年x月xx日，籍贯xxxx，现就读于湖南科技大学xxxxxx</p>
+      <p>在大学期间里学习了Java Web，数据库，操作系统，C语言等课程</p>
+      <div class="clearfix"></div>
+      <h3>Skills</h3>
+      <ul class="skills">
+        <li>MS Office <span class="bar_100"><span class="present">90%</span></span></li>
+        <li>C <span class="bar_90"><span class="present"></span>90%</span></li>
+        <li>Mysql <span class="bar_50">70%<span class="present"></span></span></li>
+		  <li>……<span class="bar_50"><span class="present"></span></span></li>
+      </ul>
+	  </section>
+    <section class="clearfix" id="contact">
+      <header>
+        <h2>Get in touch with me</h2>
+      </header>
+      <form action="#" method="post">
+        <p>
+          <input  type="text" name="name" value="Your Name" id="name" onblur="if (this.value == ''){this.value = 'Your Name'; }" onfocus="if (this.value == 'Your Name') {this.value = '';}"></p>
+        <p>
+          <input type="text" name="email" value="Your Email" id="email"  onblur="if (this.value == ''){this.value = 'Your Email'; }" onfocus="if (this.value == 'Your Email') {this.value = '';}">
+          </p>
+        <p>
+          <input type="text" name="url" value="Your Site" id="url" onblur="if (this.value == ''){this.value = 'Your Site'; }" onfocus="if (this.value == 'Your Site') {this.value = '';}">
+          </p>
+        <p>
+          <textarea cols="20" rows="7" name="message" id="message" onblur="if (this.value == ''){this.value = 'Your Message'; }" onfocus="if (this.value == 'Your Message') {this.value = '';}" >Your Message</textarea></p>
+        <p>
+          <input type="submit" name="submit" value="Send Message" class="button">
+          </p>
+      </form>
+      <div class="social_wrapper">
+        <h3>联系方式</h3>
+        <ul class="social">
+          <li class="QQ"><a href="#">QQ:2389258075</a></li>
+			<li class="Tel"><a href="#">Tel:18073216134</a></li>
+          <li class="WeChat"><a href="#">WeChat:15307478419</a></li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</div>
+</body>
+</html>

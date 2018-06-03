@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+
+<body>
+<video controls>
+    <source src="medias/11.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+</video>
+<script>
+function loadNewVideo() {
+    var video = document.getElementsByTagName('video')[0];
+    var sources = video.getElementsByTagName('source');
+    sources[0].src = 'video1.mp4';
+    sources[1].src = 'video2.mp4';
+    video.load(); // 用load方法载入新的视频。
+}
+</script>
+<input type="button" value="载入新的视频" onclick="loadNewVideo()">
+</body>
+</html>
